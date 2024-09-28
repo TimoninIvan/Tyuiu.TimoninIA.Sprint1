@@ -8,9 +8,9 @@ namespace Tyuiu.TimoninIA.Sprint1.Task1.V21.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x = 2.0;
-            double y = 3.0;
-            var res = ds.Calculate(x, y);
+            double x = 2;
+            double y = 3;
+            var res = ds.Calculate(x,y);
             Assert.AreEqual(1, res);
         }
     }
